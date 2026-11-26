@@ -1,0 +1,24 @@
+name: oyun_top_sekme_zindani
+description: "Top Sekme Zindanı – Strateji ve Roguelike merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 8cb935c63a86ca3e5fb38758edd5bb8ec44dccdd
+  strateji_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/strateji-motoru
+      ref: b757ee6267961caf74adaf831e36dc2a0aa5e2c1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
